@@ -3,7 +3,7 @@
 Plugin Name: Site Secrets
 Version: 0.1-alpha
 Description: Keep your WordPress site private.
-Author: Daniel Bachhuber
+Author: Daniel Bachhuber, Digital First Media
 Author URI: http://danielbachhuber.com
 Plugin URI: http://insidethunderdome.com
 Text Domain: site-secrets
