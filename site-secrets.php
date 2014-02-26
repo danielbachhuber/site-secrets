@@ -42,6 +42,7 @@ class Site_Secrets {
 
 		if ( is_user_logged_in() ) {
 
+			// Default behavior is that viewing the site requires membership
 			$requires_membership = apply_filters( 'site_secrets_requires_membership', true );
 			if ( $requires_membership && ! is_user_member_of_blog() ) {
 				return false;
