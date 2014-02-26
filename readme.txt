@@ -3,7 +3,7 @@ Contributors: danielbachhuber, digitalfirstmedia
 Tags: private blog, collaboration
 Requires at least: 3.6
 Tested up to: 3.8.1
-Stable tag: 0.0
+Stable tag: 0.1
 
 Keep your WordPress site private.
 
@@ -35,5 +35,5 @@ Feel free to ask a question in the forums!
 
 == Changelog ==
 
-= 0.1 (??? ?? ????) =
+= 0.1 (Feb. 26, 2014) =
 * Initial release with basic ability to make a WordPress site private.

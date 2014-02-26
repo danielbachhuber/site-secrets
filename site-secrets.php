@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Site Secrets
-Version: 0.1-alpha
+Version: 0.1
 Description: Keep your WordPress site private.
 Author: Daniel Bachhuber, Digital First Media
 Author URI: http://danielbachhuber.com
