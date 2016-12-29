@@ -30,7 +30,7 @@ class Site_Secrets {
 	private function setup_actions() {
 
 		add_action( 'template_redirect', array( $this, 'action_template_redirect' ) );	
-
+		add_filter( 'rest_authentication_errors', array( $this, 'filter_rest_authentication_errors' ) );
 	}
 
 	/**
@@ -65,6 +65,16 @@ class Site_Secrets {
 			auth_redirect();
 		}
 
+	}
+
+	public function filter_rest_authentication_errors( $result ) {
+		if ( ! empty( $result ) ) {
+			return $result;
+		}
+		if ( ! self::user_can_view() ) {
+			return new WP_Error( 'restx_logged_out', 'Sorry, you must be logged in to make a request.', array( 'status' => 401 ) );
+		}
+		return $result;
 	}
 
 }
