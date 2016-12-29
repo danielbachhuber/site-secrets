@@ -2,8 +2,8 @@
 Contributors: danielbachhuber, digitalfirstmedia
 Tags: private blog, collaboration
 Requires at least: 3.6
-Tested up to: 3.8.1
-Stable tag: 0.1
+Tested up to: 4.7
+Stable tag: 0.2.0
 
 Keep your WordPress site private.
 
@@ -34,6 +34,9 @@ If the automatic process above fails, follow these simple steps to do a manual i
 Feel free to ask a question in the forums!
 
 == Changelog ==
+
+= 0.2.0 (Dec. 29, 2016) =
+* Requires authentication for REST API requests.
 
 = 0.1 (Feb. 26, 2014) =
 * Initial release with basic ability to make a WordPress site private.
