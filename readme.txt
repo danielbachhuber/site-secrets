@@ -11,7 +11,7 @@ Keep your WordPress site private.
 
 Site Secrets is a simple plugin to keep your WordPress site private. When active, it will redirect all unauthenticated users to the login screen.
 
-By default, Site Secrets requires that the user has been added to the site. You can broaden the permissions model to any logged-in users with the following snippet:
+By default, Site Secrets requires that the user has been added to the site. You can broaden the permissions model to any logged-in users with the following snippet added to your theme's `functions.php` file or a mu-plugin:
 
 `add_filter( 'site_secrets_requires_membership', '__return_false' );`
 
