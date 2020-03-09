@@ -2,7 +2,7 @@
 Contributors: danielbachhuber, digitalfirstmedia
 Tags: private blog, collaboration
 Requires at least: 3.6
-Tested up to: 5.1
+Tested up to: 5.4
 Stable tag: 0.2.0
 
 Keep your WordPress site private.
